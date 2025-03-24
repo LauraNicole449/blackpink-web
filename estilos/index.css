@@ -49,75 +49,67 @@ header {
 }
 
 /*LO DEMAS*/
-#main-banner {
-    background-color: transparent;
-    color: white;
-    padding: 40px 20px;
-}
 
-#main-banner img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 15px;
+/* Secciones */
+section {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    border: 2px solid #ff4081;
     border-radius: 10px;
-}
-.biography-section {
-    padding: 40px 20px;
-    background-color: transparent;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-.biography-section h2 {
-    color: #ff69b4;
-}
-
-/* Sección de noticias */
-.news-section {
-    padding: 40px 20px;
-    background-color: transparent;
-}
-
-.news-item {
-    background-color: rgba(34, 34, 34, 0.8);
-    padding: 15px;
-    margin: 10px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-}
-
-.news-item h3 {
-    color: #ff69b4;
-}
-
-/* Redes sociales */
-.social-media {
     background: #222;
+}
+
+/* Hero */
+#main-banner img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Noticias */
+.news-item {
+    margin: 15px 0;
+    padding: 10px;
+    background: #333;
+    border-radius: 10px;
+}
+
+/* Biografía */
+.biography-section {
+    text-align: left;
     padding: 20px;
 }
 
-.social-media ul {
-    list-style: none;
-    padding: 0;
+/* Logros */
+.achievements {
+    text-align: left;
+    padding: 20px;
 }
 
-.social-media li {
-    display: inline;
-    margin: 0 10px;
+.achievements ul {
+    list-style: none;
+}
+
+.achievements li {
+    background: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Redes sociales */
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .social-media a {
     text-decoration: none;
-    color: #ff69b4;
+    color: #ff4081;
     font-weight: bold;
-}
-
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    padding: 15px;
-    margin-top: 20px;
 }
