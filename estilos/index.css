@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+    color: #333;
+    text-align: center;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 2em;
+    color: #ff4081;
+}
+
+.nav-menu ul {
+    list-style: none;
+ 
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+    color: #ff4081;
+}
+
+#main-banner {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/*LO DEMAS*/
+#main-banner {
+    background-color: transparent;
+    color: white;
+    padding: 40px 20px;
+}
+
+#main-banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.biography-section {
+    padding: 40px 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.biography-section h2 {
+    color: #ff69b4;
+}
+
+/* Sección de noticias */
+.news-section {
+    padding: 40px 20px;
+    background-color: transparent;
+}
+
+.news-item {
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.news-item h3 {
+    color: #ff69b4;
+}
+
+/* Redes sociales */
+.social-media {
+    background: #222;
+    padding: 20px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}

@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+    color: #333;
+    text-align: center;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 2em;
+    color: #ff4081;
+}
+
+.nav-menu ul {
+    list-style: none;
+ 
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+    color: #ff4081;
+}
+
+#main-banner {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/*TODO LO DEMAS*/
+
+#miembros {
+    text-align: center;
+    padding: 40px;
+    background-color: #111;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.miembros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.miembro {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid #ff4081;
+}
+
+.miembro img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.miembro h3 {
+    font-size: 1.4rem;
+    color: #ff79b0;
+}
+
+.miembro p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.miembro:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el enlace de Instagram */
+.miembro a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #E4405F; /* Color oficial de Instagram */
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+.miembro a:hover {
+    color: #bc2a8d; /* Cambio de color al pasar el cursor */
+}
+
+
+
+/* Efecto de movimiento al pasar el cursor */
+.miembro a:hover::before {
+    transform: scale(1.2);
+}

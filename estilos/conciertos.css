@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+    color: #333;
+    text-align: center;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 2em;
+    color: #ff4081;
+}
+
+.nav-menu ul {
+    list-style: none;
+ 
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+    color: #ff4081;
+}
+
+#main-banner {
+    margin: 20px auto;
+    max-width: 800px;
+}
+/*LO DEMAS*/
+
+#conciertos {
+    text-align: center;
+    padding: 40px;
+    background-color: #111;
+    color: white;
+}
+
+.tour {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ff79b0;
+    margin-bottom: 15px;
+}
+
+.concert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+
+.concert {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border: 2px solid #ff4081;
+    cursor:pointer; 
+}
+
+.concert img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.concert p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.concert:hover {
+    transform: scale(1.05);
+}
